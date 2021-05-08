@@ -1,0 +1,20 @@
+package interfaces;
+
+public class CustomerManager {
+	//loosly - tightly coupled
+	public void add(Customer customer) {
+		System.out.println("Müþteri eklendi "+ customer.getFirtsName());
+		
+		
+		
+		DatabaseLogger logger = new DatabaseLogger();
+		logger.log(customer.getFirtsName() + " veri tabanýna loglandý");
+	}
+	
+	public void delete(Customer customer) {
+		System.out.println("Müþteri silindi " + customer.getFirtsName());
+		DatabaseLogger logger = new DatabaseLogger();
+		logger.log(customer.getFirtsName() + " veri tabanýna loglandý");
+	
+	}
+}

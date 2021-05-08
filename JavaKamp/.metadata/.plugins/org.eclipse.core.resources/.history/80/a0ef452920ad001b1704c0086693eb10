@@ -1,0 +1,13 @@
+package interfaces;
+
+public class Main {
+
+	public static void main(String[] args) {
+		CustomerManager customerManager = new CustomerManager(new FileLogger());
+		Customer bayram = new Customer(1,"Bayram","Alkan");
+		
+		customerManager.add(bayram);
+		
+	}
+
+}

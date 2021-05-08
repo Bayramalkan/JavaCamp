@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+C:\Users\mehme\OneDrive\Masaüstü\bayram\JavaKamp\.metadata\.plugins\org.eclipse.jdt.core
+1642175237.index
+1662216653.index
+2052462106.index
+435225591.index
+380197650.index
+278804527.index
+858178207.index
